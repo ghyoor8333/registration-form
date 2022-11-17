@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+    .main {
+        display: grid;
+        justify-items: center;
+        background-color: rgb(173, 230, 245);
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .log_page {
+        border: 2px solid black;
+        border-radius: 10px;
+        box-shadow: 15px 15px 20px black;
+        margin-top: 120px;
+        width: 250px;
+        height: 400px;
+        background-color: white;
+
+    }
+
+    .login {
+        /* box-shadow: 15px 15px 30px rgb(30, 133, 218); */
+        color: aliceblue;
+        height: 40%;
+        background-color: rgb(48, 149, 167);
+        text-align: center;
+        font-size: 30px;
+       
+    }
+    h2{
+        display: inline-block;
+        margin-top: 45px;
+    }
+   
+    .second {
+        text-align: center;
+        background-color: white;
+        margin-top: 55px;
+        /* margin-left: 25px; */
+    }
+    .name{
+        text-align: center;
+        border-radius: 4px;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .pass {
+        text-align: center;
+        border-radius: 4px;
+        margin-top: 35px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .btn {
+        font-size: 18px;
+        margin-top: 23px;
+        /* margin-left: 50px; */
+        padding: 4px;
+        width: 85px;
+        border-radius: 7px;
+        background-color: bisque;
+        box-shadow: 0px 0px 15px rgb(167, 106, 32);
+    }
+    span{
+        display: block;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="log_page">
+            <div class="login">
+                <h2>LOGIN</h2>
+            </div>
+            
+            <div class="second">
+                <input type="text" placeholder="enter name" class="name">
+                <input type="password" placeholder="enter password" class="pass">
+                <button class="btn">login</button>
+                <span>problem?</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
